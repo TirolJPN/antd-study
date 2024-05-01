@@ -3,6 +3,7 @@ import CustomizeTheme from './CustomizeTheme';
 import MyAutoComplete from './MyAutoComplete';
 import MyDescriptions from './MyDescriptions';
 import MyTable from './MyTable';
+import MyTour from './MyTour';
 
 const App = () => (
   <div className="App">
@@ -11,6 +12,7 @@ const App = () => (
     <MyDescriptions />
     <Empty/>
     <MyTable />
+    <MyTour />
   </div>
 );
 
