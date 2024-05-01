@@ -1,8 +1,10 @@
 import CustomizeTheme from './CustomizeTheme';
+import MyAutoComplete from './MyAutoComplete';
 
 const App = () => (
   <div className="App">
-    <CustomizeTheme></CustomizeTheme>
+    <CustomizeTheme/>
+    <MyAutoComplete />
   </div>
 );
 
