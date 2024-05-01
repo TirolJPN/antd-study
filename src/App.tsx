@@ -1,8 +1,8 @@
-import { Button } from 'antd';
+import CustomizeTheme from './CustomizeTheme';
 
 const App = () => (
   <div className="App">
-    <Button type="primary">Button</Button>
+    <CustomizeTheme></CustomizeTheme>
   </div>
 );
 
